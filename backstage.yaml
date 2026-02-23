@@ -2,8 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Catalog
 metadata:
   name: python-goof-catalog
-  labels:
-    legacy: Legacy
+  tags:
+    - legacy
+    - deprecated
 spec:
   targets:
     - url: relative/path/to/catalog-info.yaml
