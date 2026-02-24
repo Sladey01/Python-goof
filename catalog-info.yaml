@@ -1,18 +1,11 @@
 yaml
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Catalog
 metadata:
-  name: Legacy Repos
-  title: Legacy Repos
-  description: Legacy Repos
-  labels:
-    team: Legacy Repos
-    environment: Legacy Repos
-    language: Legacy Repos
-    criticality: Legacy Repos
-    region: Legacy Repos
+  name: python-goof-catalog
+  tags:
+    - legacy
+    - deprecated
 spec:
-  type: Legacy Repos
-  owner: Legacy Repos
-  lifecycle: Legacy Repos
-  system: Legacy Repos
+   targets:
+    - url: relative/path/to/catalog-info.yaml
