@@ -4,7 +4,7 @@ kind: Catalog
 metadata:
   name: python-goof-catalog
   tags:
-    - legacy
+    - ConcordTest
 spec:
    targets:
     - url: relative/path/to/catalog-info.yaml
